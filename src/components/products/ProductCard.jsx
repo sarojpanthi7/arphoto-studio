@@ -38,7 +38,7 @@ const ProductCard = ({ product }) => {
       <p className="text-gray-700 text-sm">
         {product.category?.name?.toUpperCase() || "CATEGORY"}
       </p>
-      <button className="bg-gray-100 hover:bg-[#FFC300] hover:text-black text-gray-500 py-2 px-4 rounded mt-2 cursor-pointer text-md">
+      <button className="bg-gray-100 active:bg-[#FFC300] hover:bg-[#FFC300] hover:text-black text-gray-500 py-2 px-4 rounded mt-2 cursor-pointer text-md">
         Add to Cart
       </button>
     </motion.div>

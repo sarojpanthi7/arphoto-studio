@@ -63,7 +63,7 @@ const Navbar = () => {
               </Link>
             ))}
           </motion.ul>
-
+          {/* saroj is cool */}
           <div>
             <Link to={"/cart"}>
               <CartButton itemCount={1} totalPrice={500} />
