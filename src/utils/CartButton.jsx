@@ -2,7 +2,7 @@ import { FaShoppingCart } from "react-icons/fa";
 
 const CartButton = ({ itemCount = 0, totalPrice = 0 }) => {
   return (
-    <div className="hover:scale-105 transition-all relative flex items-center bg-yellow-400 px-4 py-2 rounded-full shadow-lg bottom-2">
+    <div className="hover:scale-105 transition-all relative flex items-center bg-yellow-400 px-4 py-2 rounded-full shadow-lg bottom-4">
       <span className="text-lg font-semibold text-black">Cart</span>
 
       {/* Red Circle with Cart Icon */}

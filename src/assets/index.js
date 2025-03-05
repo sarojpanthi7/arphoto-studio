@@ -1,3 +1,4 @@
 import logo from "../assets/ArLogo.png";
 import backgroundimage from "../assets/backgroundimage.jpeg";
-export { logo, backgroundimage };
+import companies from "../assets/companies.png";
+export { logo, backgroundimage, companies };
